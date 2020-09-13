@@ -1,0 +1,41 @@
+.activeStory {
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+    height: 100%;
+}
+
+.activeStoryName {
+    margin-top: -1.6rem;
+    background-color: white;
+    min-width: 2rem;
+    max-width: 4rem;
+    margin-left: 1rem;
+}
+
+.selected {
+    border: 2px solid green;
+}
+
+.pointButton {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:focus {
+        outline: unset;
+    }
+}
+
+.pointsContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2rem;
+    margin-top: 1rem;
+}
+
+.message {
+    margin: 1rem;
+}
